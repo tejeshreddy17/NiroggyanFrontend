@@ -105,7 +105,7 @@ class MedicationPage extends Component {
 
   generatingPdf =  () =>{
     
-    var pdf = new jspdf("p", "mm", [1340,1320]);
+    var pdf = new jspdf("p", "mm", [1400,1320]);
 
     const pdfCode = document.querySelector("#smartRxReport")
 
