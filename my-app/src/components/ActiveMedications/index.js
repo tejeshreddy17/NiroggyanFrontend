@@ -122,7 +122,7 @@ class MedicationPage extends Component {
           
           method:"POST",
 
-          body: html
+          body: JSON.stringify(html)
          
           
         }
